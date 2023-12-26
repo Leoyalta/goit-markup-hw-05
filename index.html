@@ -477,7 +477,7 @@
         <div class="footer-wrapper-subscribe">
           <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-form" name="subscribe">
-            <label class="subscribe-form-field" form="email">
+            <label class="subscribe-form-field" for="email">
               <input class="subscribe-form-input" id="email" type="email" placeholder="E-mail">
             </label>
             <button class="subscribe-form-button" type="submit">Subscribe
@@ -493,7 +493,7 @@
     </footer>
     <!-- modal section -->
     
-      <div class="backdrop">
+      <div class="backdrop is-open">
         <div class="modal">
           <button type="button" class="close-btn" aria-label="Modal close button">
             <svg class="close-vector" width="8" height="8">
@@ -501,7 +501,6 @@
             </svg>
           </button>
           <p class="modal-text">Leave your contacts and we will call you back</p>
-          < class="modal-label-wrapper">
             <form class="modal-form">
               <label for="user-name" class="modal-lable">Name</label>
               <div class="modal-input-box">
@@ -550,8 +549,8 @@
               <label class="modal-field-label" for="comment">Comment</label>
               <textarea
                 class="modal-field"
-                name="commant"
-                id="commant"
+                name="comment"
+                id="comment"
                 placeholder="Text input"
               >
               </textarea>
