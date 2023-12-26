@@ -675,7 +675,7 @@ letter-spacing: 0.04em;
   fill: transparent;
 }
 .checkbox-input:checked + .checkbox-lable > .custom-checkbox {
-  background-color: #4044bf;
+  background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
 }
